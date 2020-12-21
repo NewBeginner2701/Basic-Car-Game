@@ -1,10 +1,14 @@
+# It is coding of basic car game.
+# It will work on Command prompt.
+# By @NewBeginner2701.
+
 import pygame   # import pygame package
 pygame.init()   # initiate package
 
 grey = (118, 119 , 110)     # colour code in RGB form
 black = (0,0,0)
 display = pygame.display.set_mode((1000,600))   # set width & height of display
-pygame.display.set_caption("Rutvik KA Gadi Hai")    # set window name
+pygame.display.set_caption("Car Game by NewBeginner2701")    # set window name
 carimg = pygame.image.load("car1.png")      # load car image
 backgroundleft = pygame.image.load("left.png")  # load background left side image
 backgroundright = pygame.image.load("right.png")    # load background right side image 
